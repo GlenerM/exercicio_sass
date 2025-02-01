@@ -1,3 +1,5 @@
+@use'./variaveis.scss';
+
 section{
     h2 {
         text-align: center;
@@ -31,10 +33,10 @@ section{
     }
 
     a{
-        background-color: rgb(0, 0, 0);
+        background-color:variaveis.$corPrincipal;
         padding:  9px   60px;
-        color: #fff;        
-       text-decoration: none;
+        color: variaveis.$corTexto;        
+        text-decoration: none;
         border-radius: 7px
     }
 }
